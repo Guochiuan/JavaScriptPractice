@@ -1,9 +1,7 @@
-const container = document.querySelector('#container');
+const { PI, square } = require('./math');
 
-for (let i = 0; i < 100; i++) {
-    const b = document.createElement('button');
-    b.append('Hey!');
-    container.appendChild(b);
+const cats = require('./shelter')
+// console.log(PI)
 
-}
-
+// console.log(square(9))
+console.log("REQUIRED AN ENTIRE DIRECTORY!", cats)
